@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:background="@drawable/home_bg"
+              android:orientation="vertical"
+              android:padding="10dp" >
+
+    <LinearLayout
+            style="@style/Layouts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal" >
+
+        <Button
+                style="@style/buttons"
+                android:id="@+id/btn_sunroof_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunroof Up"
+                android:onClick="button_action"
+                android:background="@drawable/buttons_style" />
+
+        <Button
+                style="@style/buttons"
+                android:id="@+id/btn_sunroof_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="button_action"
+                android:background="@drawable/buttons_style"
+                android:text="Sunroof Down" />
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/Layouts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        <Button
+                style="@style/buttons"
+                android:id="@+id/btn_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons_style"
+                android:onClick="button_action"
+                android:text="Car Lock" />
+
+        <Button
+                style="@style/buttons"
+                android:id="@+id/btn_unlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons_style"
+                android:onClick="button_action"
+                android:text="Car Unlock" />
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/Layouts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        <Button
+                style="@style/buttons"
+                android:id="@+id/btn_light_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons_style"
+                android:onClick="button_action"
+                android:text="Light On" />
+
+        <Button
+                style="@style/buttons"
+                android:id="@+id/btn_light_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons_style"
+                android:onClick="button_action"
+                android:text="Light Off" />
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/Layouts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        <Button
+                style="@style/buttons"
+                android:id="@+id/btn_engine_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons_style"
+                android:onClick="button_action"
+                android:text="Engine On" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            style="@style/Layouts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        <Button
+                style="@style/buttons"
+                android:id="@+id/btn_open_trunk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons_style"
+                android:onClick="button_action"
+                android:text="Open Trunk" />
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/Layouts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        <Button
+                style="@style/buttons"
+                android:id="@+id/btn_toot_horn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons_style"
+                android:onClick="button_action"
+                android:text="Toot Horn" />
+    </LinearLayout>
+
+</LinearLayout>
